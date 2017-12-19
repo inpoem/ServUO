@@ -494,8 +494,9 @@ namespace Server.Items
             writer.Write(m_PlayerConstructed);
             writer.Write(m_LowerStatReq);
 
-            writer.Write(m_PlayerConstructed);
-            writer.Write(m_LowerStatReq);
+            writer.Write(m_UsesRemaining);      //It was duplicated 494,495 lines before
+            writer.Write(m_ShowUsesRemaining);  //It was duplicated 494,495 lines before
+
 
             writer.Write(m_OriginalHue);
 
